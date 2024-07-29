@@ -1,0 +1,16 @@
+[package]
+name = "example_app"
+version = "1.0.0"
+authors = []
+
+[addresses]
+example_addr = "2319a4d169fbf5394bbc487f8b0553eb5af837cfe8ff0a9a3f50d546171588b4"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
